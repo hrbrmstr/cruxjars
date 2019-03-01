@@ -16,7 +16,7 @@ Description: Contents of the 'crux' & supporting Java archives
 URL: https://gitlab.com/hrbrmstr/cruxjars
 BugReports: https://gitlab.com/hrbrmstr/cruxjars/issues
 Encoding: UTF-8
-License: AGPL
+License: Apache License 2.0 | file LICENSE
 Suggests:
     testthat,
     covr
