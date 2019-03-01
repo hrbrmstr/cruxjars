@@ -4,8 +4,13 @@
 \name{cruxjars}
 \alias{cruxjars}
 \alias{cruxjars-package}
-\title{...}
+\title{Java Archive Wrapper Supporting the 'crux' Package}
 \description{
+Contents of the 'crux' & supporting Java archives
+\url{https://github.com/chimbori/crux}.Version number reflects the version
+number of the included 'JAR' file.
+}
+\details{
 \itemize{
 \item URL: \url{https://gitlab.com/hrbrmstr/cruxjars}
 \item BugReports: \url{https://gitlab.com/hrbrmstr/cruxjars/issues}

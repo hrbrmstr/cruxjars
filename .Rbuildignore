@@ -1,3 +1,4 @@
+^Makefile$
 ^.vscode$
 ^.*\.Rproj$
 ^\.Rproj\.user$
@@ -8,6 +9,7 @@
 ^NOTES\.*html$
 ^\.codecov\.yml$
 ^README_files$
+^java$
 ^doc$
 ^docs$
 ^tmp$

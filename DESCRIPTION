@@ -1,14 +1,18 @@
 Package: cruxjars
 Type: Package
-Title: cruxjars title goes here otherwise CRAN checks fail
-Version: 0.1.0
+Title: Java Archive Wrapper Supporting the 'crux' Package
+Version: 2.0.2
 Date: 2019-03-01
 Authors@R: c(
     person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
-           comment = c(ORCID = "0000-0001-5670-2640"))
+           comment = c(ORCID = "0000-0001-5670-2640")),
+    person("Chimbori", role = "aut",
+           comment = "crux Java library (<https://github.com/chimbori/crux>)")
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: Contents of the 'crux' & supporting Java archives 
+    <https://github.com/chimbori/crux>. Version number reflects the version 
+    number of the included 'JAR' file.
 URL: https://gitlab.com/hrbrmstr/cruxjars
 BugReports: https://gitlab.com/hrbrmstr/cruxjars/issues
 Encoding: UTF-8
@@ -17,9 +21,7 @@ Suggests:
     testthat,
     covr
 Depends:
-    R (>= 3.2.0)
-Imports:
-    httr,
-    jsonlite
+    R (>= 3.2.0),
+    rJava
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
