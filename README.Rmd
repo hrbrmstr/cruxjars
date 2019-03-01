@@ -22,31 +22,36 @@ Contents of the 'crux' & supporting Java archives
 <https://github.com/chimbori/crux>.Version number reflects the version 
 number of the included 'JAR' file.
 
-## What's Inside The Tin
-
-The following functions are implemented:
-
 ## Installation
 
 ```{r install-ex, eval=FALSE}
-devtools::install_git("https://sr.ht.com/~hrbrmstr/cruxjars.git")
-# or
-devtools::install_git("https://gitlab.com/hrbrmstr/cruxjars.git")
-# or (if you must)
-devtools::install_github("hrbrmstr/cruxjars")
+install.packages(c("cruxjars", "crux"), repos = "https://cinc.rud.is/")
 ```
 
 ## Usage
 
 ```{r lib-ex}
 library(cruxjars)
+library(crux)
 
 # current version
-packageVersion("cruxjars")
+packageVersion("crux")
 
 ```
 
-## cruxjars Metrics
+```{r}
+str(
+  summarise_url("http://time.com/5541738/joe-biden-backtracks-pence-praise-criticism/"), 1
+)
+```
+
+```{r}
+str(
+  classify_url("https://www.washingtonpost.com/powerpost/house-democrats-explode-in-recriminations-as-liberals-lash-out-at-moderates/2019/02/28/c3d163fe-3b87-11e9-a06c-3ec8ed509d15_story.html")
+)
+```
+
+## crux Metrics
 
 ```{r cloc, echo=FALSE}
 cloc::cloc_pkg_md()
